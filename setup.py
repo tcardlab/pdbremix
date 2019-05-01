@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup
+from setuptools import setup, find_packages
 #from distutils.core import setup
 import glob
 
@@ -16,7 +16,7 @@ setup(
     long_description='Docs at http://github.com/boscoh/pdbremix',
     license='MIT',
     install_requires=[],
-    packages=['pdbremix',],
+    packages=find_packages(),
     #package_dir = {'pdbremix': 'pdbremix'}
     
     include_package_data=True,
