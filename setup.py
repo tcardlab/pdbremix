@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-from setuptools import setup
+#from setuptools import setup
+from distutils.core import setup
 import glob
 
 version = open('pdbremix/_version.py').read().split()[-1][1:-1]
@@ -16,6 +17,8 @@ setup(
     license='MIT',
     install_requires=[],
     packages=['pdbremix',],
+    package_dir = {'pdbremix': 'pdbremix'}
+    
     include_package_data=True,
     scripts=glob.glob('bin/*'),
 )
