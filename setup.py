@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from setuptools import setup, find_packages
 #from distutils.core import setup
+from setuptools import setup, find_packages
 import glob
 
 #version = open('pdbremix/_version.py').read().split()[-1][1:-1]
@@ -16,10 +16,10 @@ setup(
     long_description='Docs at http://github.com/boscoh/pdbremix',
     license='MIT',
     install_requires=[],
-    #package_dir=['pdbremix',],
-    packages=find_packages(where='pdbremix')
-    #package_dir = {'pdbremix': 'pdbremix'}
-    
+    packages=find_packages(where='pdbremix'),
     include_package_data=True,
-    #scripts=glob.glob('bin/*'),
 )
+
+#package_dir=['pdbremix',],
+#package_dir = {'pdbremix': 'pdbremix'}
+#scripts=glob.glob('bin/*'),
