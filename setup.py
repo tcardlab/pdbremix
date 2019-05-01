@@ -17,7 +17,7 @@ setup(
     license='MIT',
     install_requires=[],
     package_dir={'': 'pdbremix'}
-    packages=find_packages(where='pdbremix/pdbremix'),
+    packages=['pdbremix','pdbremix.pdbremix'],
     include_package_data=True,
 )
 
