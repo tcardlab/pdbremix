@@ -4,11 +4,11 @@ from setuptools import setup
 #from distutils.core import setup
 import glob
 
-version = open('pdbremix/_version.py').read().split()[-1][1:-1]
+#version = open('pdbremix/_version.py').read().split()[-1][1:-1]
 
 setup(
     name='pdbremix',
-    version=version,
+    version='1.0',
     author='Bosco Ho',
     author_email='boscoh@gmail.com',
     url='http://github.com/boscoh/pdbremix',
@@ -16,8 +16,8 @@ setup(
     long_description='Docs at http://github.com/boscoh/pdbremix',
     license='MIT',
     install_requires=[],
-    packages=['pdbremix'],
-    package_dir = {'pdbremix': 'pdbremix'}
+    packages=['pdbremix',],
+    #package_dir = {'pdbremix': 'pdbremix'}
     
     include_package_data=True,
     scripts=glob.glob('bin/*'),
