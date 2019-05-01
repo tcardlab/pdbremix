@@ -16,7 +16,7 @@ setup(
     long_description='Docs at http://github.com/boscoh/pdbremix',
     license='MIT',
     install_requires=[],
-    packages=['pdbremix',],
+    packages=['pdbremix'],
     package_dir = {'pdbremix': 'pdbremix'}
     
     include_package_data=True,
