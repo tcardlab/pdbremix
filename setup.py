@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+'''NOW FUNCTIONAL... I THINK'''
 #from distutils.core import setup
 from setuptools import setup, find_packages
 import glob
