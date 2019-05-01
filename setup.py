@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-#from setuptools import setup
-from distutils.core import setup
+from setuptools import setup
+#from distutils.core import setup
 import glob
 
 version = open('pdbremix/_version.py').read().split()[-1][1:-1]
